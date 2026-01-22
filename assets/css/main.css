@@ -618,6 +618,12 @@ section,
   }
 }
 
+.hero h2,
+.hero p,
+.hero span {
+  color: #fff;
+}
+
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
@@ -1296,8 +1302,3 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 20%);
 }
 
-.hero h2,
-.hero p,
-.hero span {
-  color: #fff;
-}
