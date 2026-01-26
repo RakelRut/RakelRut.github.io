@@ -415,105 +415,75 @@
     </section><!-- /Resume Section -->
 
 
-    <section id="process" class="process section light-background">
+    <!-- Resume Section -->
+    <section id="process" class="py-5">
       <div class="container">
     
-        <div class="section-title">
-          <h2>Development Process</h2>
-          <p>
-            This section explains how I built this website, which tools I used,
-            and the technical problems I encountered during development.
-          </p>
+        <div class="text-center mb-4">
+          <h2>My Development Process</h2>
+          <p>Step-by-step explanation of how I built this website and solved key problems.</p>
         </div>
     
-        <div class="content">
+        <div class="row g-4">
     
-          <h4>1. Choosing and Setting Up the Template</h4>
-          <p>
-            I built this website using the <strong>iPortfolio Bootstrap 5 template</strong>
-            from GitHub. I chose this template because it provided a responsive layout
-            and a clear structure that I could customize for my own portfolio.
-          </p>
-          <p>
-            After downloading the template, I uploaded the project to GitHub Pages
-            so the website could be hosted online.
-          </p>
+          <div class="col-md-4 text-center">
+            <div class="border rounded p-4 h-100">
+              <h3 class="display-6 text-primary">1</h3>
+              <h5>Choose Template & Setup</h5>
+              <p>I started by selecting the iPortfolio Bootstrap 5 template and uploaded
+                 it to GitHub Pages for hosting.</p>
+            </div>
+          </div>
     
-          <h4>2. File Structure and Asset Upload Issues</h4>
-          <p>
-            One of the first technical problems I encountered was uploading the
-            <code>assets</code> folder to GitHub. The folder was too large to upload
-            all at once, which caused upload failures.
-          </p>
-          <p>
-            To solve this, I created an empty folder named <code>assets</code> in the
-            repository and then manually uploaded the required subfolders and files.
-            This ensured that all styles, images, and scripts loaded correctly.
-          </p>
+          <div class="col-md-4 text-center">
+            <div class="border rounded p-4 h-100">
+              <h3 class="display-6 text-primary">2</h3>
+              <h5>Fix Asset Upload Issues</h5>
+              <p>The assets folder was too large to upload directly, so I created it
+                 empty first and then added files manually so all images and styles loaded correctly.</p>
+            </div>
+          </div>
     
-          <h4>3. Content Customization</h4>
-          <p>
-            I replaced all placeholder text from the template with my own content.
-            This included editing the <strong>About</strong> and <strong>Resume</strong>
-            sections to reflect my personal information and experience.
-          </p>
-          <p>
-            All template images were replaced with my own selected images to make the
-            website more personal and original.
-          </p>
+          <div class="col-md-4 text-center">
+            <div class="border rounded p-4 h-100">
+              <h3 class="display-6 text-primary">3</h3>
+              <h5>Customize Content</h5>
+              <p>Replaced placeholder text and images with my own content, updated
+                 About and Resume sections, and removed unused parts.</p>
+            </div>
+          </div>
     
-          <h4>4. Project Section and Navigation Fixes</h4>
-          <p>
-            The navigation menu included a link to a <strong>Project</strong> section
-            that did not exist in the original template. When users clicked the link,
-            the website redirected them back to the homepage.
-          </p>
-          <p>
-            I solved this problem by creating a new section with the ID
-            <code>project</code> in the HTML file. After adding this section, the
-            template styling no longer applied correctly.
-          </p>
-          <p>
-            To fix the layout issues, I edited <code>index.html</code> and added
-            additional CSS rules in <code>main.css</code> to restore the correct
-            spacing, typography, and alignment.
-          </p>
-          <p>
-            I also modified an existing template section called <strong>“downdeep”</strong>
-            and restructured it into multiple subsections:
-            Project, Project 1, Project 2, Project 3, and Final Project.
-          </p>
+          <div class="col-md-4 text-center">
+            <div class="border rounded p-4 h-100">
+              <h3 class="display-6 text-primary">4</h3>
+              <h5>Add Project Section</h5>
+              <p>Created the Project section that was missing from the menu and fixed
+                 styling by updating HTML and CSS.</p>
+            </div>
+          </div>
     
-          <h4>5. Contact Form Implementation</h4>
-          <p>
-            I decided to keep the Contact section at the bottom of the page.
-            Initially, the template relied on a PHP file to send emails directly.
-            However, GitHub Pages does not support server-side PHP.
-          </p>
-          <p>
-            To resolve this limitation, I integrated <strong>Formspree</strong>,
-            which allows form submissions without backend code. Using Formspree,
-            contact messages are successfully submitted with the sender’s name,
-            email, subject, and message.
-          </p>
+          <div class="col-md-4 text-center">
+            <div class="border rounded p-4 h-100">
+              <h3 class="display-6 text-primary">5</h3>
+              <h5>Contact Form Integration</h5>
+              <p>Replaced server-side PHP form with Formspree so GitHub Pages can
+                 handle form submissions.</p>
+            </div>
+          </div>
     
-          <h4>6. Design Assets and Final Adjustments</h4>
-          <p>
-            To improve the visual identity of the website, I created a logo,
-            app icon, and favicon using Canva.
-          </p>
-          <p>
-            I removed unused sections such as <strong>Portfolio</strong> and
-            <strong>Testimonials</strong> to simplify the layout and focus on
-            the most relevant content.
-          </p>
+          <div class="col-md-4 text-center">
+            <div class="border rounded p-4 h-100">
+              <h3 class="display-6 text-primary">6</h3>
+              <h5>Final Design Touches</h5>
+              <p>Created logo, app icon, and favicon in Canva and simplified layout to focus on key content.</p>
+            </div>
+          </div>
     
         </div>
-    
       </div>
-    </section>
+    </section><--/Process Section-->
 
-
+    
     <section id="projects" class="project section">
       <div class="container">
     
