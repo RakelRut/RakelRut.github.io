@@ -907,7 +907,7 @@ section,
 --------------------------------------------------------------*/
 
 .process .icon-box {
-  background: color-mix(in srgb, var(--accent-color), transparent 92%);
+  background: color-mix(in srgb, var(--accent-color), transparent 67%);
   border: 2px solid var(--accent-color);
   border-radius: 12px;
   padding: 30px 20px;
