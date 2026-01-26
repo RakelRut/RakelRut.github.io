@@ -897,32 +897,36 @@ section,
 
 .contact .php-email-form button[type=submit]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 25%);
+
 }
+
+
 
 /*--------------------------------------------------------------
 # Process Section
 --------------------------------------------------------------*/
-/* Process Section Enhancements */
+
 .process .icon-box {
-  background: #f4f9ff; /* light blue background */
-  border: 2px solid #cfe2ff; /* soft blue border */
+  background: color-mix(in srgb, var(--accent-color), transparent 92%);
+  border: 2px solid var(--accent-color);
   border-radius: 12px;
   padding: 30px 20px;
-  transition: all 0.3s ease;
   height: 100%;
+  transition: all 0.3s ease;
 }
 
 .process .icon-box:hover {
-  background: #e7f1ff;
-  border-color: #0d6efd; /* Bootstrap primary blue */
-  transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(13, 110, 253, 0.15);
+  background: color-mix(in srgb, var(--accent-color), transparent 85%);
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px
+    color-mix(in srgb, var(--accent-color), transparent 60%);
 }
 
+/* Icon circle */
 .process .icon-box .icon {
   width: 60px;
   height: 60px;
-  background: #0d6efd;
+  background: var(--accent-color);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -930,26 +934,26 @@ section,
   margin-bottom: 15px;
 }
 
+/* Icon */
 .process .icon-box .icon i {
-  color: #ffffff;
+  color: var(--contrast-color);
   font-size: 28px;
 }
 
+/* Headings */
 .process .icon-box h4 {
-  color: #0d6efd;
+  color: var(--accent-color);
   font-weight: 600;
   margin-bottom: 10px;
 }
 
+/* Text */
 .process .icon-box p {
-  color: #444;
+  color: var(--default-color);
   font-size: 15px;
   line-height: 1.6;
 }
 
-.process.section {
-  background-color: #f8fbff;
-}
 
 /*--------------------------------------------------------------
 # Starter Section Section
