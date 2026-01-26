@@ -1007,6 +1007,7 @@ section,
   margin-bottom: 20px;
 }
 
+
 /*--------------------------------------------------------------
 # Scroll Offset Fix for Fixed Header
 --------------------------------------------------------------*/
@@ -1015,7 +1016,7 @@ section,
 @media (min-width: 1200px) {
   .process,
   .project-subsection {
-    scroll-margin-top: 120px; /* adjust if header height changes */
+    scroll-margin-top: 120px; /* matches header height + spacing */
   }
 }
 
@@ -1025,10 +1026,5 @@ section,
   .project-subsection {
     scroll-margin-top: 60px; /* smaller offset for mobile */
   }
-}
-
-/* Optional: apply globally to all sections */
-section {
-  scroll-margin-top: 120px;
 }
 
