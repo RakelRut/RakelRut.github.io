@@ -791,65 +791,44 @@ section,
 /*--------------------------------------------------------------
 # Goal Section
 --------------------------------------------------------------*/
-
-/* Goals Section - Blended */
+/* Goals Section - Blended and Full Width */
 #goals {
-  padding: 60px 20px; /* consistent spacing */
-  background-color: inherit; /* same as body or parent section */
+  padding: 60px 20px;
+  background-color: #e0f0ff; /* your blue background */
   text-align: center;
 }
 
+#goals .container {
+  max-width: 1200px; /* keeps content centered */
+  margin: 0 auto;
+  padding: 0 20px; /* optional inner spacing */
+  background: none; /* ensures container is transparent */
+}
+
 #goals h2 {
-  font-size: 2.2rem; /* match other headings */
+  font-size: 2.2rem;
   margin-bottom: 40px;
-  color: inherit; /* same color as other section headings */
+  color: #333; /* or match other headings */
   font-weight: 600;
 }
 
-.goal-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px; /* spacing similar to other grids/sections */
+/* Your goal blocks (for multiple items) */
+.goals-block {
+  text-align: left; /* aligns text like other sections */
+  margin-bottom: 40px;
 }
 
-.goal {
-  background-color: inherit; /* same as section, no heavy boxes */
-  border-radius: 8px; /* subtle rounding if used elsewhere */
-  padding: 20px;
-  width: 280px;
-  box-shadow: none; /* remove if other sections are flat */
-  transition: transform 0.3s ease;
-}
-
-.goal:hover {
-  transform: translateY(-3px); /* subtle hover effect if site uses it */
-}
-
-.goal h3 {
+.goals-block h3 {
   font-size: 20px;
   margin-bottom: 10px;
   font-weight: 600;
-  color: inherit; /* match section text color */
+  color: #222;
 }
 
-.goal p {
+.goals-block p {
   font-size: 1rem;
-  color: inherit; /* match paragraph color */
+  color: #555;
   line-height: 1.5;
-}
-
-/* Responsive adjustments */
-@media (max-width: 1000px) {
-  .goal {
-    width: 45%;
-  }
-}
-
-@media (max-width: 600px) {
-  .goal {
-    width: 100%;
-  }
 }
 
 
