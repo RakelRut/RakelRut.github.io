@@ -791,19 +791,19 @@ section,
 /*--------------------------------------------------------------
 # Goal Section
 --------------------------------------------------------------*/
-/* Goals Section - Blended and Full Width */
+
 #goals {
-  padding: 60px 20px;
-  background-color: #e0f0ff; /* your blue background */
-  text-align: center;
+  /* rely on global .section padding */
 }
 
-#goals .container {
-  max-width: 1200px; /* keeps content centered */
-  margin: 0 auto;
-  padding: 0 20px; /* optional inner spacing */
-  background: none; /* ensures container is transparent */
+#goals .section-title {
+  text-align: left; /* matches Projects */
 }
+
+#goals .project-subsection {
+  margin-bottom: 50px; /* same as Projects */
+}
+
 
 #goals h2 {
   font-size: 2.2rem;
